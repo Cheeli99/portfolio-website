@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@popperjs/core': ^2.11.6
   '@testing-library/jest-dom': ^5.16.5
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^14.4.3
@@ -11,10 +12,11 @@ specifiers:
   web-vitals: ^3.1.0
 
 dependencies:
+  '@popperjs/core': 2.11.6
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 14.4.3
-  bootstrap: 5.2.3
+  bootstrap: 5.2.3_@popperjs+core@2.11.6
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-scripts: 5.0.1_react@18.2.0
@@ -1995,6 +1997,10 @@ packages:
       webpack-dev-server: 4.11.1_webpack@5.75.0
     dev: false
 
+  /@popperjs/core/2.11.6:
+    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
+    dev: false
+
   /@rollup/plugin-babel/5.3.1_opjstonlpkhafnz76jsxdwq25a:
     resolution: {integrity: sha512-WFfdLWU/xVWKeRQnKmIAQULUI7Il0gZnBIH/ZFO069wYIfPu+8zrfp/KMW0atmELoRDq8FbiP3VCss9MhCut7Q==}
     engines: {node: '>= 10.0.0'}
@@ -3320,10 +3326,12 @@ packages:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
     dev: false
 
-  /bootstrap/5.2.3:
+  /bootstrap/5.2.3_@popperjs+core@2.11.6:
     resolution: {integrity: sha512-cEKPM+fwb3cT8NzQZYEu4HilJ3anCrWqh3CHAok1p9jXqMPsPTBhU25fBckEJHJ/p+tTxTFTsFQGM+gaHpi3QQ==}
     peerDependencies:
       '@popperjs/core': ^2.11.6
+    dependencies:
+      '@popperjs/core': 2.11.6
     dev: false
 
   /brace-expansion/1.1.11:
