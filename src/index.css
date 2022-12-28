@@ -31,7 +31,7 @@ body {
 }
 
 .cover-container {
-  max-width: 90em;
+  max-width: 110em;
 }
 
 
@@ -90,6 +90,15 @@ body {
   padding-bottom: 20px;
 }
 
+.masthead-heading {
+  padding-top: 5em;
+  padding-bottom: 1em;
+}
+
+.masthead-subheading {
+  padding-bottom: 5em;
+}
+
 /*--------------------------------------------------------------
 # Container
 --------------------------------------------------------------*/
@@ -97,19 +106,23 @@ body {
   padding-bottom: 20px;
 }
 
+.heading-container {
+  padding-bottom: 5em;
+}
+
 /*--------------------------------------------------------------
-# Games
+# Portfolio Section
 --------------------------------------------------------------*/
-.Games {
+.portfolio {
   position: relative;
   z-index: 2;
 }
-.Games .box-img {
+.portfolio .box-img {
   height: 325px;
   width: 400px;
   float: left;
 }
-.Games .icon-box-left {
+.portfolio .icon-box-left {
   float: left;
   padding: 30px 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 5);
@@ -118,7 +131,7 @@ body {
   transition: all ease-in-out 0.3s;
   height: 100%;
 }
-.Games .icon-box-right {
+.portfolio .icon-box-right {
   float: right;
   padding: 30px 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 5);
@@ -127,26 +140,72 @@ body {
   transition: all ease-in-out 0.3s;
   height: 100%;
 }
-.Games .icon-box .icon-text {
+.portfolio .icon-box .icon-text {
   text-align: center;
 }
-.Games .icon-box:hover {
+.portfolio .icon-box:hover {
   background: #1b1b1b;
 }
 
 /*--------------------------------------------------------------
-# Check list & table functionality
+# About Section
 --------------------------------------------------------------*/
-/* Darker background-color on hover */
-tbody tr:hover {
-  background: rgb(94, 94, 94);
+.about {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.button {
-  background: #fff;
-  padding: 10px;
+.profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 1.1s;
 }
 
+.page-section {
+  padding-top: 7em;
+}
+
+.profile_blurb {
+  line-height: 1.8;
+}
+.about__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.skills__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 160px;
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+
+.skills__item img {
+  height: 60px;
+  width: auto;
+  transition: all 0.2s;
+}
 
 /*
  * Footer
