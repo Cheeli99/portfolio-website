@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@babel/runtime': ^7.20.7
   '@popperjs/core': ^2.11.6
   '@testing-library/jest-dom': ^5.16.5
   '@testing-library/react': ^13.4.0
@@ -14,6 +15,7 @@ specifiers:
   web-vitals: ^3.1.0
 
 dependencies:
+  '@babel/runtime': 7.20.7
   '@popperjs/core': 2.11.6
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
