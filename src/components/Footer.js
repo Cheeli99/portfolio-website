@@ -9,8 +9,11 @@ const Footer = () => {
     <div>
       <footer class="mastfoot mt-auto">
         <div class="inner">
-        <p>Made by Evan McCarthy! <a href="privacy.html">Privacy Policy.</a> <a href="credits.html">Credits.</a>
-        </p>
+          <p>Made by Evan McCarthy!
+            <a href="https://github.com/Cheeli99" target="_blank" rel="noreferrer">
+            <img src={require("../img/github_logo.png")} class="mastfoot__img" alt="Github logo"></img>
+            </a>
+          </p>
         </div>
       </footer>
     </div>

@@ -213,3 +213,7 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+.mastfoot__img {
+  padding-left: 5px;
+  height: 30px;
+}
