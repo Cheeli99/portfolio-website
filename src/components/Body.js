@@ -39,7 +39,21 @@ const Body = () => {
                                 <div class="icon-box-right col-lg-9 mb-4 mb-lg-4">
                                     <p >
                                         <a href="index.html" target="_blank" rel="noreferrer">
-                                            <img src={require("../img/kiosk_first_screen.png")} class="rounded box-img img-fluid mx-3 d-block" alt="Math tutor program"></img>
+                                            <img src={require("../img/jeopardy.png")} class="rounded box-img img-fluid mx-3 d-block" alt="Jeopardy game"></img>
+                                        </a>
+                                        <h2 class="icon-text-heading">Jeopardy Game</h2>
+                                        <p class="icon-text">Created with Java and Java Swing, this seminar project replicates the iconic game show Jeopardy into a video game format. This program has two sets of unique
+                                                             technology themed questions that the user can choose before starting the game.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg mb-4 mb-lg-5">
+                                <div class="icon-box-left col-lg-9 mb-4 mb-lg-4">
+                                    <p >
+                                        <a href="index.html" target="_blank" rel="noreferrer">
+                                            <img src={require("../img/kiosk_first_screen.png")} class="rounded box-img img-fluid mx-3 d-block" alt="Kiosk program"></img>
                                         </a>
                                         <h2 class="icon-text-heading">Center for Applied Technology (CAT) Kiosk Program</h2>
                                         <p class="icon-text">Created with Java and Javafx, this seminar project provides information about Wayne State College's CAT building.</p>
@@ -49,7 +63,7 @@ const Body = () => {
                         </div>
                         <div class="row">
                             <div class="col-lg mb-4 mb-lg-5">
-                                <div class="icon-box-left col-lg-9 mb-4 mb-lg-4">
+                                <div class="icon-box-right col-lg-9 mb-4 mb-lg-4">
                                     <p >
                                         <a href="https://replit.com/@Cheeli99/Math-Tutor#main.cpp" target="_blank" rel="noreferrer">
                                             <img src={require("../img/math_tutor.png")} class="rounded box-img img-fluid mx-3 d-block" alt="Math tutor program"></img>
